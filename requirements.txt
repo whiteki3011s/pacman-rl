@@ -1,0 +1,8 @@
+numpy
+pygame
+gymnasium
+stable-baselines3
+torch
+matplotlib
+Pillow
+tensorboard   # optional, for training curves in TensorBoard

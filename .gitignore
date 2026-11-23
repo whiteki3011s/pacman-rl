@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Node / Vite Web Build Artifacts & Dependencies
+web/node_modules/
+node_modules/
+web/.vite/
+web/.vite-temp/
+
+# Redundant temporary run backups & scratch scripts
+*_backup*/
+scratch/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

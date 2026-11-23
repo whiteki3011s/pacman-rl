@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Warm-up",
+    "maze": "levels/maze_01.txt",
+    "ghosts": 1,
+    "ghost_speed": 0.5,
+    "frightened_steps": 40,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 1700,
+    "stars_to_unlock": 0
+  },
+  {
+    "id": 2,
+    "name": "Twin Trouble",
+    "maze": "levels/maze_02.txt",
+    "ghosts": 2,
+    "ghost_speed": 0.6,
+    "frightened_steps": 35,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 1650,
+    "stars_to_unlock": 0
+  },
+  {
+    "id": 3,
+    "name": "Triple Chase",
+    "maze": "levels/maze_03.txt",
+    "ghosts": 3,
+    "ghost_speed": 0.75,
+    "frightened_steps": 30,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 1600,
+    "stars_to_unlock": 3
+  },
+  {
+    "id": 4,
+    "name": "Full Gang",
+    "maze": "levels/maze_04.txt",
+    "ghosts": 4,
+    "ghost_speed": 0.85,
+    "frightened_steps": 25,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 1600,
+    "stars_to_unlock": 6
+  },
+  {
+    "id": 5,
+    "name": "Gauntlet",
+    "maze": "levels/maze_05.txt",
+    "ghosts": 4,
+    "ghost_speed": 1.0,
+    "frightened_steps": 20,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 1550,
+    "stars_to_unlock": 9
+  },
+  {
+    "id": 6,
+    "name": "Classic Arcade",
+    "maze": "levels/maze_06.txt",
+    "ghosts": 4,
+    "ghost_speed": 0.9,
+    "frightened_steps": 25,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 2800,
+    "stars_to_unlock": 12
+  },
+  {
+    "id": 7,
+    "name": "Championship Arena",
+    "maze": "levels/maze_07.txt",
+    "ghosts": 4,
+    "ghost_speed": 0.95,
+    "frightened_steps": 25,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 3000,
+    "stars_to_unlock": 15
+  },
+  {
+    "id": 8,
+    "name": "Midnight Metropolis",
+    "maze": "levels/maze_08.txt",
+    "ghosts": 4,
+    "ghost_speed": 1.0,
+    "frightened_steps": 20,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 3000,
+    "stars_to_unlock": 18
+  },
+  {
+    "id": 9,
+    "name": "Phantom Labyrinth",
+    "maze": "levels/maze_09.txt",
+    "ghosts": 4,
+    "ghost_speed": 1.02,
+    "frightened_steps": 20,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 3100,
+    "stars_to_unlock": 21
+  },
+  {
+    "id": 10,
+    "name": "Master Gauntlet",
+    "maze": "levels/maze_10.txt",
+    "ghosts": 4,
+    "ghost_speed": 1.05,
+    "frightened_steps": 18,
+    "lives": 3,
+    "star2_min_lives": 2,
+    "star3_min_score": 3200,
+    "stars_to_unlock": 24
+  }
+]

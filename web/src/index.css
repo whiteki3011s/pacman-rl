@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    background-color: #FAF9F6;
+    color: #111215;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+/* Ruled notebook line background pattern matching the reference image */
+.bg-ruled-paper {
+  background-color: #FAF9F6;
+  background-image: linear-gradient(rgba(215, 220, 235, 0.45) 1px, transparent 1px);
+  background-size: 100% 32px;
+}
+
+/* Translucent masking tape styling matching Image 2 */
+.masking-tape {
+  position: absolute;
+  width: 58px;
+  height: 22px;
+  background: rgba(240, 240, 245, 0.72);
+  border: 1px dashed rgba(120, 120, 140, 0.3);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.tape-top-left {
+  top: -8px;
+  left: -14px;
+  transform: rotate(-18deg);
+}
+
+.tape-top-right {
+  top: -8px;
+  right: -14px;
+  transform: rotate(20deg);
+}
+
+/* Chamfered folder-tab notch cards matching Image 2 (Tandem / Forge cards) */
+.folder-notch-blue {
+  background-color: #153270;
+  color: #FFFFFF;
+  border-radius: 1.25rem;
+  position: relative;
+}
+
+.folder-notch-yellow {
+  background-color: #FBBF24;
+  color: #111215;
+  border-radius: 1.25rem;
+  position: relative;
+}
+
+.folder-notch-red {
+  background-color: #E11D48;
+  color: #FFFFFF;
+  border-radius: 1.25rem;
+  position: relative;
+}
+
+.folder-notch-emerald {
+  background-color: #047857;
+  color: #FFFFFF;
+  border-radius: 1.25rem;
+  position: relative;
+}
+
+/* Floating animation for 3D voxels */
+.floating-1 {
+  animation: float1 4.5s ease-in-out infinite;
+}
+.floating-2 {
+  animation: float2 5.2s ease-in-out infinite 0.6s;
+}
+.floating-3 {
+  animation: float3 4.8s ease-in-out infinite 1.2s;
+}
+.floating-4 {
+  animation: float4 5.6s ease-in-out infinite 1.8s;
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1.5deg); }
+}
+@keyframes float2 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-16px) rotate(-2deg); }
+}
+@keyframes float3 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+@keyframes float4 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(-1.5deg); }
+}
